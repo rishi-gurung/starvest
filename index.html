@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Starlink</title>
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;200;300&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;1,700&family=Source+Sans+Pro:wght@700&display=swap" rel="stylesheet" />
+
+    <link rel="stylesheet" href="/index.css" />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+    <!-- ===================================== plyr video player =================================-->
+    <script src="https://cdn.plyr.io/2.0.15/plyr.js"></script>
+    <link rel="stylesheet" href="https://cdn.plyr.io/3.4.6/plyr.css">
+    <!-- ===================================== end ==========================================-->
+
+
+    <script src="/index.js"></script>
+</head>
+
+<body>
+    <div class="top-bar" id="topbar">
+        <div class="row-b">
+            <div class="row">
+                <button class="icon-button">
+            <i class="material-icons" style="font-size: 50px">menu</i>
+          </button>
+                <img id="logo" src="/images/logo.png" alt="" />
+            </div>
+            <div class="row">
+                <div class="top-t">For Reviewers</div>
+                <div class="top-t">For Founders</div>
+                <div class="top-t">Contact Us</div>
+                <button class="login">LOG IN</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="back-t-dw"></div>
+
+    <div class="left-head">
+        <div class="ccc">Discover What's</div>
+        <div class="ccc">possible.</div>
+        <div style="height: 37px; width: 1px"></div>
+        <div class="l-iner-text">Join now to bring out the</div>
+        <div class="l-iner-text">extraordinary,</div>
+        <div class="l-iner-text">Experience and innovate in a single touch.</div>
+        <div style="height: 70px"></div>
+        <button id="explore" onclick="smoothScroll(document.getElementById('exp'));">EXPLORE NOW</button>
+    </div>
+
+    <div style="height: 970px"></div>
+
+    <!-- /////////////////// Page 1 /////////////////////////// -->
+
+    <div class="page-2">
+        <div class="vivek">
+            <div class="row-a">
+                <div class="row">
+                    <div class="aaaa"></div>
+                    <img src="/images/3.jpg" class="side-img" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class="vivek2">
+            <p class="right-text">
+                We belive in<br /> promoting innovative<br /> strategies , a<br /> multifaceted platform<br /> allowing users to<br /> review the startups and<br /> get an insight about<br /> creative disciplines for<br /> a variety<br /> of projects
+            </p>
+            <!-- <div class="right-text"></div>
+            <div class="right-text">promoting innovative</div>
+            <div class="right-text">strategies , a</div>
+            <div class="right-text">multifaceted platform</div>
+            <div class="right-text">allowing users to</div>
+            <div class="right-text">review the startups and</div>
+            <div class="right-text">get an insight about</div>
+            <div class="right-text">creative disciplines for</div>
+            <div class="right-text">a variety</div>
+            <div class="right-text">of projects</div> -->
+            <div style="height: 30px"></div>
+            <div style="
+            font-size: 35px;
+            font-weight: 500;
+            font-family: 'Noto Sans', sans-serif;
+          ">
+                About Us
+            </div>
+            <img src="/images/arrow.png" id="ll" alt="" />
+        </div>
+    </div>
+
+    <div style="height: 100px"></div>
+
+    <!-- /////////////////// Page 3 /////////////////////////// -->
+
+    <div class="page3" id="exp">
+        <div id="page3-1">
+            <div class="right-text" style="color: white; padding-left:20px;">Our<br/>Services</div>
+            <div class="right-text" style="color: white; padding-left:20px;padding-top: 590px;">Assitance</div>
+        </div>
+        <div id="page3-2" onclick="smoothScroll(document.getElementById('start'));">
+            <div class="right-text" style="color: white; padding-left:20px;padding-top:700px;"> Start-ups</div>
+        </div>
+        <div id="page3-3" onclick="smoothScroll(document.getElementById('rees'));">
+            <div class="right-text" style="color: white; padding-left:20px;padding-top:700px;">Reviews</div>
+        </div>
+    </div>
+
+    <!-- ============================ page 4========================-->
+
+    <div class="ccc" id="start" style="color: #000e2f; padding-left:20px;padding-bottom:30px;">Start-ups With Us</div>
+    <div class="row">
+        <div class="flex">
+            <div class="row-a">
+                <div class="left-page-4-img"></div>
+            </div>
+        </div>
+        <div class="flex">
+            <div class="row-e">
+                <div>
+                    <div style="height: 6px;width: 320px;background-color:#000e2f"></div>
+                    <div class="right-text" style="color: #000e2f;">Company</div>
+                    <div class="mmm">StarVest</div>
+                    <div style="height: 2px;width: 320px;background-color:#000e2f"></div>
+                    <div style="height: 160px;"></div>
+                    <div style="height: 6px;width: 320px;background-color:#000e2f"></div>
+                    <div class="right-text" style="color: #000e2f;">Valuation</div>
+                    <div class="mmm">StarVest</div>
+                    <div style="height: 2px;width: 320px;background-color:#000e2f"></div>
+                </div>
+                <div>
+                    <div style="height: 6px;width: 320px;background-color:#000e2f"></div>
+                    <div class="right-text" style="color: #000e2f;">Founder</div>
+                    <div class="mmm">StarVest</div>
+                    <div style="height: 2px;width: 320px;background-color:#000e2f"></div>
+                    <div style="height: 160px;"></div>
+                    <div style="height: 6px;width: 320px;background-color:#000e2f"></div>
+                    <div class="right-text" style="color: #000e2f;">Field</div>
+                    <div class="mmm">StarVest</div>
+                    <div style="height: 2px;width: 320px;background-color:#000e2f"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div style="height: 200px;"></div>
+
+    <!-- =====================================casousel=======================================-->
+    <div id="page-4-back"></div>
+    <div class="row-a">
+        <div style="z-index: 5;">
+            <div class="re" id="rees">Reviews</div>
+        </div>
+    </div>
+    <div class="row-a">
+        <div style="z-index: 5;">
+            <div style="height: 4px; width: 120px;background-color:rgb(211, 165, 0);"></div>
+        </div>
+    </div>
+    <div class="row-a" style="margin-top: 100px;">
+        <div class="c-item">
+            <div class="c-box">
+                <p>
+                    our membership blends the anvantages of ease of the progeam withe help of star vest by fallana dhinkana blaa blaa blaa ... helps a lot to everyone
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- ___________________________________________________________________ promotion video_______________________________________-->
+
+    <div class="row-a">
+        <div class="ree">STARTUP STORY TELLING</div>
+    </div>
+    <div class="row-a">
+        <div style="z-index: 5;">
+            <div style="height: 4px; width: 120px;background-color:rgb(211, 165, 0);"></div>
+        </div>
+    </div>
+    <div style="height: 28px;"></div>
+    <div class="row-a">
+        <div class="vid"></div>
+    </div>
+    <div style="height: 80px;"></div>
+
+    <!-- //////////////////////////////////////////////////////// page 7 //////////////////////////////////////////-->
+
+    <div class="row-a">
+        <div class="ree" style="margin-top:0;">REVIEWS OF THE WEEK</div>
+    </div>
+    <div class="row-a">
+        <div style="z-index: 5;">
+            <div style="height: 4px; width: 120px;background-color:rgb(211, 165, 0);"></div>
+        </div>
+    </div>
+    <div style="height: 30px;"></div>
+    <div class="row">
+        <div class="revs">
+            <div class="row-a">
+                <div class="avatar">
+                </div>
+            </div>
+            <div class="row-a">
+                <div class="rev-about">
+                    <div class="re-name">ALICIA KREMBLE</div>
+                    <div class="re-sub">Head of Marketing<br/>reallygreasite.com</div>
+                    <div style="height: 10px;"></div>
+                    <div class="row-a">
+                        <div style="z-index: 5;">
+                            <div style="height: 4px; width: 120px;background-color:rgb(211, 165, 0);"></div>
+                        </div>
+                    </div>
+                    <div style="height: 30px;"></div>
+                    <div class="row-a">
+                        <p>"as a new user i am very happy <br/>with what this application<br/> provides, after using it for a<br/>long time i can't let go and <br/> continue to use this <br/> application."</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="revs">
+            <div class="row-a">
+                <div class="avatar">
+                </div>
+            </div>
+            <div class="row-a">
+                <div class="rev-about">
+                    <div class="re-name">ALICIA KREMBLE</div>
+                    <div class="re-sub">Head of Marketing<br/>reallygreasite.com</div>
+                    <div style="height: 10px;"></div>
+                    <div class="row-a">
+                        <div style="z-index: 5;">
+                            <div style="height: 4px; width: 120px;background-color:rgb(211, 165, 0);"></div>
+                        </div>
+                    </div>
+                    <div style="height: 30px;"></div>
+                    <div class="row-a">
+                        <p>"as a new user i am very happy <br/>with what this application<br/> provides, after using it for a<br/>long time i can't let go and <br/> continue to use this <br/> application."</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="revs">
+            <div class="row-a">
+                <div class="avatar">
+                </div>
+            </div>
+            <div class="row-a">
+                <div class="rev-about">
+                    <div class="re-name">ALICIA KREMBLE</div>
+                    <div class="re-sub">Head of Marketing<br/>reallygreasite.com</div>
+                    <div style="height: 10px;"></div>
+                    <div class="row-a">
+                        <div style="z-index: 5;">
+                            <div style="height: 4px; width: 120px;background-color:rgb(211, 165, 0);"></div>
+                        </div>
+                    </div>
+                    <div style="height: 30px;"></div>
+                    <div class="row-a">
+                        <p>"as a new user i am very happy <br/>with what this application<br/> provides, after using it for a<br/>long time i can't let go and <br/> continue to use this <br/> application."</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div style="height: 120px;"></div>
+
+    <!-- ================================================ page 8 ========================================-->
+
+    <div class="row-a">
+        <div class="ree" style="margin-top:0;">LATEST NEWS</div>
+    </div>
+    <div class="row-a">
+        <div style="z-index: 5;">
+            <div style="height: 4px; width: 120px;background-color:rgb(211, 165, 0);"></div>
+        </div>
+    </div>
+    <div style="height: 30px;"></div>
+    <div class="row">
+        <div class="news">
+            <div class="row-a">
+                <div>
+                    <div class="news-img"></div>
+                    <div class="row-b" style="width: 400px;">
+                        <div class="n-sub">post by: Admin</div>
+                        <div class="n-sub">20 Dec 2022</div>
+                    </div>
+                    <div style="height: 20px;"></div>
+                    <div class="news-head">Make your transitions<br/>more secure with our news<br/> systems</div>
+                    <div style="height: 20px;"></div>
+                    <div class="news-sub">Take your time and read our latest news <br/> to improve your account</div>
+                    <div style="height: 20px;"></div>
+                    <div class="read-more">Read More ></div>
+                </div>
+            </div>
+        </div>
+        <div class="news">
+            <div class="row-a">
+                <div>
+                    <div class="news-img"></div>
+                    <div class="row-b" style="width: 400px;">
+                        <div class="n-sub">post by: Admin</div>
+                        <div class="n-sub">20 Dec 2022</div>
+                    </div>
+                    <div style="height: 20px;"></div>
+                    <div class="news-head">Make your transitions<br/>more secure with our news<br/> systems</div>
+                    <div style="height: 20px;"></div>
+                    <div class="news-sub">Take your time and read our latest news <br/> to improve your account</div>
+                    <div style="height: 20px;"></div>
+                    <div class="read-more">Read More ></div>
+                </div>
+            </div>
+        </div>
+        <div class="news">
+            <div class="row-a">
+                <div>
+                    <div class="news-img"></div>
+                    <div class="row-b" style="width: 400px;">
+                        <div class="n-sub">post by: Admin</div>
+                        <div class="n-sub">20 Dec 2022</div>
+                    </div>
+                    <div style="height: 20px;"></div>
+                    <div class="news-head">Make your transitions<br/>more secure with our news<br/> systems</div>
+                    <div style="height: 20px;"></div>
+                    <div class="news-sub">Take your time and read our latest news <br/> to improve your account</div>
+                    <div style="height: 20px;"></div>
+                    <div class="read-more">Read More ></div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div style="height: 30px;"></div>
+
+</body>
+
+</html>
